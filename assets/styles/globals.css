@@ -1,3 +1,6 @@
+*{
+    margin: 0;
+}
 html{
     background-color: #ede2c2;
     background-image: url("../images/barnabyKitchen1.png");
@@ -16,12 +19,66 @@ nav{
 }
 h1{
     text-align: center;
-    background-color: aquamarine;
-    color: purple;
+    color: #525252;
     font-family: 'Alegreya SC', serif;
-    margin-top: 5rem;
+    margin-top: 6rem;
+    padding-top: 6rem;
+    font-size: 4rem;
 }
 p{
+    margin: 2rem;
+    font-size: 2rem;
     text-align: center;
     font-family: 'Alegreya Sans', sans-serif;
+}
+.card{
+    height: auto;
+    width: 80%;
+    margin: auto;
+    margin-top: 10rem;
+    border-radius: 2px;
+    background-color: #fffbf0;
+    border-top-right-radius: 4%;
+}
+
+.card-design{
+    background-color:#4899db;
+}
+
+.thick-line{
+    height: .75rem;
+    margin: 1rem 0;
+}
+.thin-line{
+    height: .25rem;
+}
+.left-design{
+
+}
+.middle-design{
+
+}
+.right-design{
+
+}
+.line-container{
+    width: 38%;
+    display: inline-block;
+}
+.middle-illustration{
+    width: 20%;
+    display: inline-block;
+}
+
+.food-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 4rem;
+}
+
+.food{
+    width: 20%;
+    height: 15rem;
+    border: dashed pink thick;
 }
