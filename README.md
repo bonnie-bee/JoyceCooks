@@ -1,3 +1,3 @@
-# Joyce Cooks
+# Midsomer Munchies
 
-An illustrated catalogue of all the foods Joyce Barnaby cooks.
+An illustrated catalogue of all the notable foods in Midsomer.
