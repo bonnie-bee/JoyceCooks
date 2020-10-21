@@ -7,22 +7,29 @@ html{
     /* background-size: 50%; */
 }
 nav{
-    background-color: #fff;
+    background-color: #bf1c37;
+    box-shadow:0px 1px 7px 0px #bf1c37, 0px 5px 15px 0px #bf1c37, 0px 16px 17px -5px #bf1c37, 0px 32px 27px -20px #bf1c37;
     width: 100%;
     height: 3rem;
     position: fixed;
+    z-index: 35;
     top: 0;
     left: 0;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
+nav>a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.25rem;
+    font-family: 'Alegreya sans', 'Arial';
+}
 h1{
     text-align: center;
     color: #525252;
     font-family: 'Alegreya SC', serif;
-    margin-top: 6rem;
-    padding-top: 6rem;
     font-size: 4rem;
 }
 p{
@@ -32,33 +39,67 @@ p{
     font-family: 'Alegreya Sans', sans-serif;
 }
 .card{
+    position: relative;
     height: auto;
     width: 80%;
-    margin: auto;
-    margin-top: 10rem;
-    border-radius: 2px;
+    margin: 10rem auto 5rem;
+    padding-bottom: 35px;
+    border-radius: 4px;
     background-color: #fffbf0;
     border-top-right-radius: 4%;
 }
 
 .card-design{
-    background-color:#4899db;
+    background-color:#8ebee5;
 }
 
 .thick-line{
     height: .75rem;
-    margin: 1rem 0;
+    margin: 3.5rem 0 1rem;
 }
 .thin-line{
     height: .25rem;
 }
-.left-design{
+.left-line-container{
+    margin-left: .75rem;
 
+}
+.left-designA{
+    height: 3.75rem;
+    width: 1.25rem;
+    border-radius: 25% 92% 0% 90%;
+    display: inline-block;
+    transform: translateX(18px) translateY(21px) rotate(-80deg);
+}
+.left-designB{
+    height: 3.25rem;
+    width: 1.25rem;
+    border-radius: 25% 92% 0% 90%;
+    display: inline-block;
+    transform: translateX(4px) translateY(-6px) rotate(-50deg);
 }
 .middle-design{
+    display: inline-block;
+    width: 40px;
+  height: 40px;
+  border-radius: 80% 0 55% 50% / 55% 0 80% 50%;
+  transform: translateY(-31px) rotate(134deg);
+  margin-top: 20px;
+}
+.right-designA{
+    height: 3.75rem;
+    width: 1.25rem;
+    border-radius: 92% 25% 90% 0%;
+    display: inline-block;
+    transform: translateX(-18px) translateY(21px) rotate(80deg);
 
 }
-.right-design{
+.right-designB{
+    height: 3.25rem;
+    width: 1.25rem;
+    border-radius: 92% 25% 90% 0%;
+    display: inline-block;
+    transform: translateX(-4px) translateY(-6px) rotate(50deg);
 
 }
 .line-container{
@@ -68,6 +109,7 @@ p{
 .middle-illustration{
     width: 20%;
     display: inline-block;
+    text-align: center;
 }
 
 .food-container{
