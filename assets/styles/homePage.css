@@ -1,7 +1,82 @@
 @import "globals.css";
 
-.homePage>#mainLogo{
-    width: 55%;
-    margin-left: 22.5%;
+.homePage>h1{
+    letter-spacing: -1rem;
     margin-top: 7rem;
+    font-family: 'Cardo', serif;
+    font-size: 5.5rem;
+    font-weight: 400;
+    line-height: 6rem;
+}
+h1>span{
+    position: relative;
+    top: -.5rem;
+}
+/* M */
+.char1{
+    font-size: 7.5rem;
+    top: 0rem;
+
+}
+/* I */
+.char2{
+    
+}
+/* D */
+.char3{
+    letter-spacing: -1.5rem;
+}
+/* S */
+.char4{
+    font-size: 7.5rem;
+    top: 0rem;
+    letter-spacing:-1.25rem;
+}
+/* O */
+.char5{
+    
+}
+/* M */
+.char6{
+    
+}
+/* E */
+.char7{
+    
+}
+/* R */
+.char8{
+    
+}
+/* M */
+.char9{
+    
+}
+/* U */
+.char10{
+    
+}
+/* N */
+.char11{
+    
+}
+/* C */
+.char12{
+    
+}
+/* H */
+.char13{
+    
+}
+/* I */
+.char14{
+    
+}
+/* E */
+.char15{
+    
+}
+/* S */
+.char16{
+    
 }
