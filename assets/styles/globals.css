@@ -28,15 +28,13 @@ nav>a{
   grid-row-end: 2;
 }
 h1{
-    opacity: 0;
     text-align: center;
     color: #525252;
     font-family: 'Alegreya SC', serif;
     font-size: 4rem;
+    margin-top:-1rem;
 }
 p{
-    opacity: 0;
-
     margin: 2rem;
     font-size: 2rem;
     text-align: center;
